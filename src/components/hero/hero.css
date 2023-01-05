@@ -1,0 +1,49 @@
+.container {
+  max-width: 90%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.heroAbout {
+  max-width: 500px;
+}
+
+.heroAboutHello {
+  font-family: 'Inter';
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5.5px;
+  color: #656D72;
+}
+
+.heroAboutName {
+  margin: 25px 0px;
+  font-size: 44px;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.heroAboutText {
+  font-size: 16px;
+  font-family: 'Inter';
+  text-align: justify;
+  line-height: 32px;
+  color: #232E35
+}
+
+strong {
+  color: #7E74F1;
+}
+
+.heroImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage {
+  width: 80%;
+}
