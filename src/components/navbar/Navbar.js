@@ -17,7 +17,7 @@ function Navbar() {
         <a href=""><p>Blog</p></a>
       </div>
 
-      <button>Currículo</button>
+      <button className='button'>Currículo</button>
     </nav>
   );
 }

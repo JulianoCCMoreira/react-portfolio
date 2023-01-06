@@ -15,14 +15,7 @@
   justify-content: space-between;
 }
 
-
-
-h2 {
-  font-family: 'Plus Jakarta Sans';
-  color: #232E35;
-}
-
-button {
+.button {
   background-color: #FFF;
   padding: 16px 24px;
   width: 102px;
@@ -33,50 +26,7 @@ button {
   transition: 0.5s;
 }
 
-button:hover, button:focus {
+.button:hover, .button:focus {
   border: 1px solid #7E74F1;
   color: #7e74f1e6;
-}
-
-a {
-  text-decoration: none;
-  color: #232E35;
-  font-family: 'Inter';
-  font-size: 15px;
-  cursor: pointer;
-
-  background-image: linear-gradient(
-    to right,
-    #7E74F1,
-    #7E74F1 50%,
-    #000 50%
-  );
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-a:before {
-  content: '';
-  background: #7E74F1;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
- background-position: 0;
-}
-
-a:hover::before {
-  width:100%;
 }

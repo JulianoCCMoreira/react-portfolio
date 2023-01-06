@@ -22,8 +22,6 @@
 .heroAboutName {
   margin: 20px 0px;
   font-size: 44px;
-  font-family: 'Plus Jakarta Sans';
-  color: #232E35;
 }
 
 .heroAboutText {
@@ -58,12 +56,6 @@ strong {
 
 .socialMediaIcon {
   height: 27px;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #232E35;
 }
 
 @media only screen and (max-width:1000px) {
