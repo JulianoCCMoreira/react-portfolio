@@ -1,0 +1,39 @@
+.navbar {
+  padding-top: 40px;
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sections {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sections a {
+  text-decoration: none;
+  color: #232E35;
+  font-family: 'Inter';
+  font-size: 15px;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans';
+  color: #232E35;
+}
+
+button {
+  background-color: #FFF;
+  padding: 16px 24px;
+  width: 102px;
+  height: 49px;
+  border: 1px solid #F1F1F1;
+  border-radius: 8px;
+  cursor: pointer;
+}

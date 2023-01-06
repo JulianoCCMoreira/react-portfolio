@@ -5,9 +5,6 @@ import profile from '../../assets/dev.svg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faWhatsapp, faTelegram, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
-
- 
-
 function Hero() {
   return (
     <div className='container'>
