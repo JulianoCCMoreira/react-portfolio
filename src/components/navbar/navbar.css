@@ -30,6 +30,12 @@ button {
   border: 1px solid #F1F1F1;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover, button:focus {
+  border: 1px solid #7E74F1;
+  color: #7e74f1e6;
 }
 
 a {
