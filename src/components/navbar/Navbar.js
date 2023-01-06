@@ -1,6 +1,9 @@
 import React from 'react';
 import './navbar.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars} from "@fortawesome/free-solid-svg-icons"
+
 function Navbar() {
   return (
     <nav className='navbar'>
@@ -15,6 +18,8 @@ function Navbar() {
       </div>
 
       <button className='button'>Currículo</button>
+
+      <FontAwesomeIcon icon={faBars} className="menuIcon" />
     </nav>
   );
 }

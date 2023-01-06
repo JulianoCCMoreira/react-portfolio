@@ -12,6 +12,10 @@
   top: 0px;
 }
 
+.menuIcon {
+  display: none;
+}
+
 .sections {
   width: 40%;
   display: flex;
@@ -33,4 +37,22 @@
 .button:hover, .button:focus {
   border: 1px solid #7E74F1;
   color: #7e74f1e6;
+}
+
+@media only screen and (max-width:1000px) {
+  .sections, .button, .navbar h2 {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+    position: relative;
+    right: 30px;
+    height: 22px;
+  }
+
+  .navbar {
+    height: 20px;
+    justify-content: end;
+  }
 }
