@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "./components/experience/Experience";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Specialization from "./components/specializations/Specialization";
@@ -13,6 +14,7 @@ function App() {
       </div>
 
       <Specialization />
+      <Experience />
     </div>
   );
 }
