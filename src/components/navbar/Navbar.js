@@ -7,11 +7,11 @@ function Navbar() {
       <h2>Juliano.</h2>
 
       <div className="sections">
-        <a href=""><p>Tecnologias</p></a>
-        <a href=""><p>Experiências</p></a>
-        <a href=""><p>Conquistas</p></a>
-        <a href=""><p>Projetos</p></a>
-        <a href=""><p>Blog</p></a>
+        <a href="#tecnologias"><p>Tecnologias</p></a>
+        <a href="#experiencias"><p>Experiências</p></a>
+        <a href="#conquistas"><p>Conquistas</p></a>
+        <a href="#projetos"><p>Projetos</p></a>
+        <a href="https://dev.to/julianoccmoreira" target="_blank" rel="noreferrer"><p>Blog</p></a>
       </div>
 
       <button className='button'>Currículo</button>
