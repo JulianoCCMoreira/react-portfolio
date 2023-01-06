@@ -1,9 +1,6 @@
 import React from 'react';
 import './navbar.css'
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
-
 function Navbar() {
   return (
     <nav className='navbar'>
