@@ -1,4 +1,4 @@
-.container {
+.containerHero {
   height: 100%;
   width: 100%;
   display: flex;
@@ -59,7 +59,7 @@ strong {
 }
 
 @media only screen and (max-width:1000px) {
-  .container {      
+  .containerHero {      
     flex-direction: column-reverse;
     height: 100vh;
     padding: 0px 30px;

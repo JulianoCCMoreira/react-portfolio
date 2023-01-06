@@ -7,7 +7,7 @@ import {faGithub, faWhatsapp, faTelegram, faLinkedinIn} from '@fortawesome/free-
 
 function Hero() {
   return (
-    <div className='container'>
+    <div className='containerHero'>
 
       <div className='heroAbout'>
         <div>

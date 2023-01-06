@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Specialization from "./components/specializations/Specialization";
 import "./index.css";
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <div className="heroContainer">
         <Hero />
       </div>
+
+      <Specialization />
     </div>
   );
 }

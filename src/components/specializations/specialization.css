@@ -1,0 +1,27 @@
+.containerSpecialization {
+  height: 80vh;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.services {
+  font-family: 'Inter';
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5.5px;
+  color: #656D72;
+}
+
+.titleSpecialization {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.serviceCardContainer {
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
