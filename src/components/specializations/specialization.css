@@ -25,3 +25,14 @@
   align-items: center;
   justify-content: space-around;
 }
+
+@media only screen and (max-width:1000px) {
+  .containerSpecialization {
+    width: 100%;
+    padding-top: 8%;
+  }
+
+  .serviceCardContainer {
+    flex-direction: column;
+  }
+}
