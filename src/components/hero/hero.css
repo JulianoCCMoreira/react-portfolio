@@ -55,7 +55,12 @@ strong {
 }
 
 .socialMediaIcon {
+  transition: 0.5s;
   height: 27px;
+}
+
+.socialMediaIcon:hover {
+  color: #7e74f1e6;
 }
 
 @media only screen and (max-width:1000px) {
